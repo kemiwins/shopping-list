@@ -9,6 +9,7 @@ $(document).ready(function() {
 		if(value > "") {
 			$("li:last").show();	
 		}
+		$("#items_input").val("");
 	})
 	$(".list").on("click", "li", function() {
 		$(this).toggleClass("selected");	
@@ -31,6 +32,7 @@ $(document).ready(function() {
 			if(value > "") {
 				$("li:last").show();	
 			}
+			$("#items_input").val(""); 
 		}
 	})
 });
