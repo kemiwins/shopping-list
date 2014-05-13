@@ -43,7 +43,7 @@ h1 {
 }
 #items_input {
 	min-width: 80%;
-	margin: 0 10px 10px 10px;
+	margin: 0 10% 0 10%;
 	font-family: "Century Gothic", sans-serif;
 }
 .add, .remove, .clear {
